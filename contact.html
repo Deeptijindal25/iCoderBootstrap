@@ -116,7 +116,7 @@
           </div>
         </div>
       </div>
-      <div class="mb-3">
+      <div class="mb-3 my-2">
         <label for="exampleFormControlTextarea1" class="form-label"
           >Write your Query</label
         >
@@ -136,7 +136,60 @@
           rows="3"
         ></textarea>
       </div>
-      <button class="btn btn-primary">Submit</button>
+      <div class="dropdown">
+        <button
+          class="btn btn-success dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          How did you hear about us?
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <input
+              class="form-check-input"
+              type="radio"
+              name="radioNoLabel"
+              id="radioNoLabel1"
+              value=""
+              aria-label="..."
+            /><label class="form-check-label" for="flexCheckChecked"
+              >From Friend</label
+            >
+          </li>
+          <li> <input
+            class="form-check-input"
+            type="radio"
+            name="radioNoLabel"
+            id="radioNoLabel1"
+            value=""
+            aria-label="..."
+          /><label class="form-check-label" for="flexCheckChecked"
+            >From Website</label
+          ></li>
+          <li> <input
+            class="form-check-input"
+            type="radio"
+            name="radioNoLabel"
+            id="radioNoLabel1"
+            value=""
+            aria-label="..."
+          /><label class="form-check-label" for="flexCheckChecked"
+            >From Youtube</label
+          ></li>
+        </ul>
+      </div>
+      <div class="form-group row my-4">
+        <div class="col-sm-2">Would you like to receive our notifications?</div>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="gridCheck2" />
+            <label for="gridCheck1" class="form-check-label"> Yes </label>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary my-2">Submit</button>
     </div>
     <footer class="container">
       <p class="float-end"><a href="#">Back to top</a></p>
